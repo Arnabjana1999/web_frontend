@@ -2,6 +2,7 @@
 ## Front_end tools using bootstrap and angular/react
 
 npm init 
+
 npm install lite-server --save-dev
 
 Change the package.json file. Add the following inside "scripts" (which contains "test" currently)
