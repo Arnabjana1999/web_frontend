@@ -1,2 +1,4 @@
 Bootstrap4/conFusion/node_modules
+Bootstrap4/conFusion/package-lock.json
 test/node_modules
+test/package-lock.json
