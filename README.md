@@ -19,3 +19,9 @@ npm install bootstrap@4.0.0 --save
 Bootstrap requires installation of the following peers:
 
 npm install jquery@3.3.1 popper.js@1.12.9 --save
+
+bootstrap class "jumbotron" sets apart header from the body of the webpage
+
+Ctrl+Shift+i-> Mobile View on Top-left gives the responsive mobile view of the webpage (Debugging)
+
+ 
