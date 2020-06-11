@@ -25,4 +25,10 @@ bootstrap class "jumbotron" sets apart header from the body of the webpage
 Ctrl+Shift+i-> Mobile View on Top-left gives the responsive mobile view of the webpage (Debugging)
 
 "list-unstyled" -> remove the bullets from <ul> tagged list
- 
+
+Installation for Icon Fonts:-
+
+npm install font-awesome@4.7.0 --save
+
+npm install bootstrap-social@5.1.1 --save 
+
