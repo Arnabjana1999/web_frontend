@@ -35,8 +35,17 @@ npm install bootstrap-social@5.1.1 --save
 How to install and use CSS-preprocessors
 1. less
 
-npm install -g less@2.7.2
+sudo npm install -g less@2.7.2
 
 lessc styles.less styles.css
 
+2. Sass
+
+sudo npm install --save-dev node-sass@4.7.2
+
+Put the following command inside "scripts" in package.json
+
+"scss": "node-sass -o css/ css/"
+
+npm run scss
 
