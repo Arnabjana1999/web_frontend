@@ -32,9 +32,10 @@
                     <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal">
+                    <!-- <a data-toggle="modal" data-target="#loginModal">
                         <span class="fa fa-sign-in"></span> Login
-                    </a>
+                    </a> -->
+                    <a id="loginLink"><span class="fa fa-sign-in"></span> Login</a>
                 </span>
             </div>
         </div>
@@ -184,8 +185,9 @@
                 </div>
                 <!-- Task 3. Reserve Table Button -->
                 <div class="col-12 col-sm align-self-center text-center">
-                    <a href="#reserveform" class="btn-block btn-sm btn-warning" role="button"
-                    data-toggle="modal" data-target="#reservationModal">Reserve Table</a>
+                    <!-- <a href="#reserveform" class="btn-block btn-sm btn-warning" role="button"
+                    data-toggle="modal" data-target="#reservationModal">Reserve Table</a> -->
+                    <a href="#reserveform" class="btn-block btn-sm btn-warning" role="button" id="reserveButton">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -441,6 +443,13 @@
                     $('#carouselButton').children('span').removeClass('fa-cycle');
                     $('#carouselButton').children('span').addClass('fa-pause');
                 }
+            })
+            $('#reserveButton').click(function() {
+                $('#reservationModal').modal('show');
+            })
+
+            $('#loginLink').click(function() {
+                $('#loginModal').modal('show');
             })
         })
     </script>
