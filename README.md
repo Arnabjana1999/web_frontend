@@ -32,3 +32,11 @@ npm install font-awesome@4.7.0 --save
 
 npm install bootstrap-social@5.1.1 --save 
 
+How to install and use CSS-preprocessors
+1. less
+
+npm install -g less@2.7.2
+
+lessc styles.less styles.css
+
+
